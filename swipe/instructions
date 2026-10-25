@@ -1,0 +1,7 @@
+Swipe Harvest is a full screen, client side web game made with HTML, CSS, and JavaScript.
+Swipe fruit with touch, pen, or mouse; arrow keys plus Space provide a keyboard blade.
+A 25 challenge campaign crosses five gardens, with combos, flow bonuses, golden fruit,
+Harvest Rush, ceramic hazards, and constellation orbits. Quick Play, Zen, Daily Harvest,
+and Survival provide replay modes. Art and sound are generated locally. Saves use
+localStorage with import/export and graceful fallback. There is no backend or offline
+installation layer. See README.md for controls, architecture, and code-only tests.
