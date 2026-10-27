@@ -6,12 +6,12 @@ Timing, movement, balance, coordination, and short action challenges.
 
 | Game | Folder | Public route |
 | --- | --- | --- |
-| [Beetle Ball](beetle-ball/index.html) | [beetle-ball/](beetle-ball/README.md) | /beetle-ball/ |
-| [Pearls of the Gulf](pearls/index.html) | [pearls/](pearls/README.md) | /pearls/ |
-| [Rooftop Ribbon Run](rooftop-ribbon-run/index.html) | [rooftop-ribbon-run/](rooftop-ribbon-run/README.md) | /rooftop-ribbon-run/ |
-| [Swipe Slice](swipe/index.html) | [swipe/](swipe/README.md) | /swipe/ |
-| [Two Ends of a Scarf](two-ends-of-a-scarf/index.html) | [two-ends-of-a-scarf/](two-ends-of-a-scarf/README.md) | /two-ends-of-a-scarf/ |
-| [Wobble Wagon](wobble-wagon/index.html) | [wobble-wagon/](wobble-wagon/README.md) | /wobble-wagon/ |
+| [Beetle Ball](beetle-ball/index.html) | [beetle-ball/](beetle-ball/README.md) | /action/beetle-ball/ |
+| [Pearls of the Gulf](pearls/index.html) | [pearls/](pearls/README.md) | /action/pearls/ |
+| [Rooftop Ribbon Run](rooftop-ribbon-run/index.html) | [rooftop-ribbon-run/](rooftop-ribbon-run/README.md) | /action/rooftop-ribbon-run/ |
+| [Swipe Slice](swipe/index.html) | [swipe/](swipe/README.md) | /action/swipe/ |
+| [Two Ends of a Scarf](two-ends-of-a-scarf/index.html) | [two-ends-of-a-scarf/](two-ends-of-a-scarf/README.md) | /action/two-ends-of-a-scarf/ |
+| [Wobble Wagon](wobble-wagon/index.html) | [wobble-wagon/](wobble-wagon/README.md) | /action/wobble-wagon/ |
 
 ## Hosting
 

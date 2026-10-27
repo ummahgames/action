@@ -155,5 +155,5 @@ test('every referenced asset is local and present, and all script tags load in o
   const assets = [...html.matchAll(/(?:src|href)="([^"]+)"/g)].map(m => m[1]).filter(p => p !== '#');
   for (const asset of assets) { assert.ok(!/^(https?:)?\/\//.test(asset)); assert.ok(fs.existsSync(path.join(root, asset.split('?')[0])), asset); }
   const scripts = [...html.matchAll(/<script src="([^"]+)"/g)].map(m => m[1]);
-  assert.deepEqual(scripts, ['portable-profile.js', 'src/data.js', 'src/engine.js', 'src/render.js', 'src/audio.js', 'src/input.js', 'src/main.js', 'screen.js?v=4']);
+  assert.deepEqual(scripts, ['portable-profile.js', 'src/data.js', 'src/engine.js', 'src/render.js', 'src/audio.js', 'src/input.js', 'src/main.js', 'screen.js?v=4', 'identities.js?v=6', 'artwork.js?v=6', 'legacy-art.js?v=6']);
 });
