@@ -49,3 +49,15 @@
   .ship-panel { padding-right: 52px; }
   .ship-panel .icon-button { width: 44px; height: 44px; }
 }
+
+/* Edge-to-edge game presentation, on phones and larger screens. */
+
+body[data-ug-game] .game-shell { width:100%; max-width:none; padding:0; }
+body[data-ug-game] .ocean-frame { height:100dvh; min-height:0; max-height:none; aspect-ratio:auto; border:0; border-radius:0; box-shadow:none; }
+body[data-ug-game] .footer { display:none; }
+body[data-ug-game] .masthead { position:absolute; z-index:4; top:env(safe-area-inset-top); left:max(8px,env(safe-area-inset-left)); right:max(8px,env(safe-area-inset-right)); min-height:48px; }
+body[data-ug-game]:has(#hud:not([hidden])) .masthead { display:none; }
+body[data-ug-game] .screen.menu-screen { justify-content:center; padding-top:calc(56px + env(safe-area-inset-top)); }
+body[data-ug-game] .menu-content { text-align:center; }
+body[data-ug-game] .menu-content .button-row, body[data-ug-game] .menu-links { justify-content:center; }
+body[data-ug-game] .hero-copy { margin-inline:auto; }

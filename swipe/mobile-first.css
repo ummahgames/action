@@ -39,3 +39,9 @@
   .round-tools .icon-button { width: 44px; height: 44px; }
   .play-footer .input-hint { display: none; }
 }
+
+/* Edge-to-edge game presentation, on phones and larger screens. */
+
+body[data-screen="home"] .hero { display:none; }
+body[data-screen="home"] .home-layout { display:flex; justify-content:center; }
+body[data-screen="home"] .journey-card { width:min(100%,480px); border:0; border-radius:0; box-shadow:none; background:transparent; }
